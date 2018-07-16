@@ -1,6 +1,6 @@
 # xml-stream-sax
 
-xml-stream-sax is a Node.js XML stream parser and editor. It is a form of
+xml-stream-sax is a Node.js XML stream parser and editor. It is a fork of
 [xml-stream](https://github.com/assistunion/xml-stream) that replaces node-expat
 with [sax-js](https://github.com/isaacs/sax-js). For most people this
 distinction doesn't matter, but I was seeing some very strange bugs in node-expat
