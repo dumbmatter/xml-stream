@@ -1,8 +1,7 @@
 [
     {
         "$children": [
-            "\n",
-            "    1 ",
+            "\n    1 ",
             {
                 "$children": [
                     "one"
@@ -10,8 +9,7 @@
                 "$name": "subitem",
                 "$text": "one"
             },
-            "\n",
-            "    2 ",
+            "\n    2 ",
             {
                 "$children": [
                     "two"
@@ -19,8 +17,7 @@
                 "$name": "subitem",
                 "$text": "two"
             },
-            "\n",
-            "    3 ",
+            "\n    3 ",
             {
                 "$children": [
                     "three"
@@ -28,11 +25,10 @@
                 "$name": "subitem",
                 "$text": "three"
             },
-            "\n",
-            "  "
+            "\n  "
         ],
         "$name": "item",
-        "$text": "\n    1 \n     2 \n     3 \n  ",
+        "$text": "\n    1  \n    2  \n    3 \n  ",
         "subitem": [
             {
                 "$children": [
@@ -59,8 +55,7 @@
     },
     {
         "$children": [
-            "\n",
-            "    4 ",
+            "\n    4 ",
             {
                 "$children": [
                     "four"
@@ -68,14 +63,10 @@
                 "$name": "subitem",
                 "$text": "four"
             },
-            "\n",
-            "    5 ",
+            "\n    5 ",
             {
                 "$children": [
-                    "\n",
-                    "      five",
-                    "\n",
-                    "      ",
+                    "\n      five\n      ",
                     {
                         "$children": [
                             "A"
@@ -83,8 +74,7 @@
                         "$name": "letter",
                         "$text": "A"
                     },
-                    "\n",
-                    "      ",
+                    "\n      ",
                     {
                         "$children": [
                             "B"
@@ -92,8 +82,7 @@
                         "$name": "letter",
                         "$text": "B"
                     },
-                    "\n",
-                    "    "
+                    "\n    "
                 ],
                 "$name": "subitem",
                 "$text": "\n      five\n      \n      \n    ",
@@ -105,11 +94,10 @@
                     "$text": "B"
                 }
             },
-            "\n",
-            "  "
+            "\n  "
         ],
         "$name": "item",
-        "$text": "\n    4 \n     5 \n  ",
+        "$text": "\n    4  \n    5 \n  ",
         "subitem": [
             {
                 "$children": [
@@ -120,10 +108,7 @@
             },
             {
                 "$children": [
-                    "\n",
-                    "      five",
-                    "\n",
-                    "      ",
+                    "\n      five\n      ",
                     {
                         "$children": [
                             "A"
@@ -131,8 +116,7 @@
                         "$name": "letter",
                         "$text": "A"
                     },
-                    "\n",
-                    "      ",
+                    "\n      ",
                     {
                         "$children": [
                             "B"
@@ -140,8 +124,7 @@
                         "$name": "letter",
                         "$text": "B"
                     },
-                    "\n",
-                    "    "
+                    "\n    "
                 ],
                 "$name": "subitem",
                 "$text": "\n      five\n      \n      \n    ",

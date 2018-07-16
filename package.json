@@ -1,29 +1,28 @@
 {
-  "name": "xml-stream",
-  "description": "XML stream to JavaScript object converter based on Expat.",
+  "name": "xml-stream-sax",
+  "description": "XML stream to JavaScript object converter based on sax-js.",
   "keywords": [
     "xml",
     "parser",
-    "expat"
+    "sax"
   ],
   "license": "MIT",
   "version": "0.4.5",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
-    "Anatoly Ressin <anatoly@assistunion.com>",
-    "Dimitry Solovyov <dimituri@gmail.com> (http://100-hour.com)"
+    "Jeremy Scheff <jdscheff@gmail.com> (http://dumbmatter.com)"
   ],
   "scripts": {
     "test": "mocha tests"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/assistunion/xml-stream.git"
+    "url": "git://github.com/dumbmatter/xml-stream-sax.git"
   },
   "dependencies": {
     "iconv": "^2.1.4",
-    "node-expat": "^2.3.7",
-    "readable-stream": "^1.0.31"
+    "readable-stream": "^1.0.31",
+    "sax": "^1.2.4"
   },
   "directories": {
     "lib": "./lib"

@@ -1,10 +1,15 @@
-# XmlStream
+# xml-stream-sax
 
-XmlStream is a Node.js XML stream parser and editor, based on
-[node-expat](https://github.com/astro/node-expat) (libexpat SAX-like parser
-binding).
+xml-stream-sax is a Node.js XML stream parser and editor. It is a form of
+[xml-stream](https://github.com/assistunion/xml-stream) that replaces node-expat
+with [sax-js](https://github.com/isaacs/sax-js). For most people this
+distinction doesn't matter, but I was seeing some very strange bugs in node-expat
+with large files, and switching to sax-js made those bugs go away.
 
-    $ npm install xml-stream
+    $ yarn add xml-stream-sax
+
+There may be minor differences in behavior compared to xml-stream, but most
+stuff should be the same.
 
 ## Rationale
 
@@ -122,16 +127,3 @@ xml.on('endElement: item', function(item) {
   console.log(item);
 })
 ```
-
-# Pause and resume parsing
-
-If you want parsing to pause (for example, until some asynchronous operation 
-of yours is finished), you can pause and resume XML parsing:
-```javascript
-xml.pause();
-myAsyncFunction( function() {
-  xml.resume();
-});
-```
-Beware that resume() **must not** be called from within a handler callback.
-
