@@ -28,7 +28,9 @@
     "lib": "./lib"
   },
   "main": "index",
+  "types": "./index.d.ts",
   "devDependencies": {
+    "@types/node": "^12.6.8",
     "mocha": "^1.21.4"
   }
 }
