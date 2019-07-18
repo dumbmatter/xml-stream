@@ -35,8 +35,15 @@ declare module "xml-stream-sax" {
 
     /**
      * Adds a listener for the specified event
-     * @param eventName
-     * @param listener
+     * Supported events:
+     * `data` on outgoing data chunk,
+     * `end` when parsing has ended,
+     * `startElement[: selector]` on opening tag for selector match,
+     * `updateElement[: selector]` on finished node for selector match with its contents buffered,
+     * `endElement[: selector]` on closing tag for selector match,
+     * `text[: selector]` on tag text for selector match.
+     * @param eventName The name of the event
+     * @param listener The callback function
      */
     on<T extends XmlStreamItem>(eventName: string, listener: (item: T) => any): this;
   }
