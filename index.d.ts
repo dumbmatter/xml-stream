@@ -6,7 +6,7 @@ declare module "xml-stream-sax" {
     $children?: Array<XmlStreamItem | string>;
   }
 
-  export default class XmlStream {
+  export class XmlStream {
 
     /**
      * **XmlStream** is an XML stream filter based on sas-js
