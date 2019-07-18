@@ -4,7 +4,6 @@ declare module "xml-stream-sax" {
     $name: string;
     $text: string;
     $children?: Array<XmlStreamItem | string>;
-    subitem: XmlStreamItem[];
   }
 
   export default class XmlStream {
